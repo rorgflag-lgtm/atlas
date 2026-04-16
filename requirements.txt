@@ -1,0 +1,7 @@
+colorama
+requests
+pyTelegramBotAPI
+discord.py
+flask
+twilio
+torch

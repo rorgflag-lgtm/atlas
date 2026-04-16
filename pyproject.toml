@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "atlas-os"
+version = "1.0.0"
+description = "ATLAS OS - Local AI operating system"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama",
+    "requests",
+    "pyTelegramBotAPI",
+    "discord.py",
+    "flask",
+    "twilio",
+    "torch",
+]
+
+[project.scripts]
+atlas = "atlas:main"
